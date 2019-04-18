@@ -7,13 +7,13 @@ import (
 	"github.com/kochman/runner"
 	"github.com/spf13/cobra"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/api"
-	"github.com/wtg/shuttletracker/config"
-	"github.com/wtg/shuttletracker/eta"
-	"github.com/wtg/shuttletracker/log"
-	"github.com/wtg/shuttletracker/postgres"
-	"github.com/wtg/shuttletracker/updater"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/api"
+	"github.com/thepoly/shuttletracker/config"
+	"github.com/thepoly/shuttletracker/eta"
+	"github.com/thepoly/shuttletracker/log"
+	"github.com/thepoly/shuttletracker/postgres"
+	"github.com/thepoly/shuttletracker/updater"
 )
 
 var rootCmd = &cobra.Command{

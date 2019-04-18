@@ -2,7 +2,7 @@ package mock
 
 import (
 	"github.com/stretchr/testify/mock"
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // StopService implements a mock of shuttletracker.StopService.

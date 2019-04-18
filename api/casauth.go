@@ -7,9 +7,9 @@ import (
 
 	gc "gopkg.in/cas.v2"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/auth"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/auth"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 // CASClient stores the local cas client and an instance of the database

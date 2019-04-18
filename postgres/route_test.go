@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 func TestCreateEmptySchedule(t *testing.T) {

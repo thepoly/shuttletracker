@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/wtg/shuttletracker/cmd"
+	"github.com/thepoly/shuttletracker/cmd"
 )
 
 func main() {

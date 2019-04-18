@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/mock"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/mock"
 )
 
 func TestVehiclesHandlerNoVehicles(t *testing.T) {

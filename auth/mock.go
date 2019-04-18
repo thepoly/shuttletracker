@@ -2,7 +2,7 @@ package auth
 
 import (
 	"github.com/stretchr/testify/mock"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker/log"
 	"net/http"
 )
 

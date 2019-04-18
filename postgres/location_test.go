@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // nolint: gocyclo

@@ -8,9 +8,9 @@ import (
 
 	// "github.com/wcharczuk/go-chart"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/log"
-	"github.com/wtg/shuttletracker/updater"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/log"
+	"github.com/thepoly/shuttletracker/updater"
 )
 
 const earthRadius = 6371000.0 // meters

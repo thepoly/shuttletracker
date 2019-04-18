@@ -10,8 +10,8 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/spf13/viper"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 // Config holds API settings.

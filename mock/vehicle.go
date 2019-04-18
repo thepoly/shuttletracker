@@ -3,7 +3,7 @@ package mock
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // VehicleService implements a mock of shuttletracker.VehicleService.

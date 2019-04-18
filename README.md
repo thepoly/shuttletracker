@@ -1,11 +1,11 @@
 # Shuttle Tracker [![Build Status](https://travis-ci.org/wtg/shuttletracker.svg?branch=master)](https://travis-ci.org/wtg/shuttletracker)&nbsp;[![codecov](https://codecov.io/gh/wtg/shuttletracker/branch/master/graph/badge.svg)](https://codecov.io/gh/wtg/shuttletracker)&nbsp;[![GoDoc](https://godoc.org/github.com/wtg/shuttletracker?status.svg)](https://godoc.org/github.com/wtg/shuttletracker)
 
-Tracks and maps RPI's shuttles with [Go](https://golang.org/), [Postgres](https://www.postgresql.org), [Vue.js](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org), and [Leaflet](https://leafletjs.com). Check it out in action at [shuttles.rpi.edu](https://shuttles.rpi.edu).
+Tracks and maps RPI's shuttles with [Go](https://golang.org/), [Postgres](https://www.postgresql.org), [Vue.js](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org), and [Leaflet](https://leafletjs.com). Check it out in action at [poly.rpi.edu/shuttles](https://poly.rpi.edu/shuttles/).
 
 ## Setting up
 
 1. [Install Go](https://golang.org/doc/install). Shuttle Tracker requires Go 1.11 or newer, and we recommend using the latest stable Go release.
-2. Clone the repository to your computer. On macOS, Linux, or WSL, this can be done with `git clone git@github.com:wtg/shuttletracker.git`. If you receive a "permission denied" error, ensure you have [added your SSH key to your GitHub account](https://help.github.com/articles/connecting-to-github-with-ssh/).
+2. Clone the repository to your computer. On macOS, Linux, or WSL, this can be done with `git clone git@github.com:thepoly/shuttletracker.git`. If you receive a "permission denied" error, ensure you have [added your SSH key to your GitHub account](https://help.github.com/articles/connecting-to-github-with-ssh/).
 3. Ensure you have [Postgres downloaded](https://www.postgresql.org/download/), installed, and running. On macOS, Homebrew makes this easy.
 4. Run `createdb shuttletracker` to create a Postgres database.
 5. Switch to the Shuttle Tracker directory (`cd shuttletracker`)
@@ -80,9 +80,9 @@ kochms
 4. Open a command prompt by pressing windows + r, then type `cmd` and hit ok, or search for command prompt.  
 
 ![Step 4](https://user-images.githubusercontent.com/6248819/47017557-9001dd00-d120-11e8-8258-651745338d78.png)  
-5. Run `go get github.com/wtg/shuttletracker`.  
+5. Run `go get github.com/thepoly/shuttletracker`.  
 6. Install `govendor` by running `go get -u github.com/kardianos/govendor`.  
-7. Switch to the Shuttle Tracker directory (`$GOPATH/src/github.com/wtg/shuttletracker`).  
+7. Switch to the Shuttle Tracker directory (`$GOPATH/src/github.com/thepoly/shuttletracker`).  
 8. Run `govendor sync`.  
 ![Steps 5-8](https://user-images.githubusercontent.com/6248819/47017579-9db76280-d120-11e8-8de5-ab5cbe11e072.png)
 9. Download and run the installer PostgreSQL [from here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads). Select the latest version. When prompted to set a password, make it something simple, as you will be using this later, for example `shuttle`.  Use default options for everything else. Write down your password.  
@@ -95,7 +95,7 @@ kochms
 ![Step 10b](https://user-images.githubusercontent.com/6248819/47017670-e0793a80-d120-11e8-9c26-473a3da6ddb5.png)  
 ![Step 10c](https://user-images.githubusercontent.com/6248819/47017687-ecfd9300-d120-11e8-8f43-606e2405f236.png)  
 
-11. Navigate to your shuttle tracker directory (`$GOPATH/src/github.com/wtg/shuttletracker`) and rename `conf.json.sample` to `conf.json`  
+11. Navigate to your shuttle tracker directory (`$GOPATH/src/github.com/thepoly/shuttletracker`) and rename `conf.json.sample` to `conf.json`  
 12. Edit `conf.json` with the following, if necessary:  
    * `API.MapboxAPIKey`: Necessary for creating routes through the admin interface. [Create your own token](https://www.mapbox.com/help/how-access-tokens-work/) or ask a Shuttle Tracker developer to provide you with one.  
    * `Postgres.URL`: URL where Postgres is located which will be the default with postgres:password@localhost added before the database name, where password is your password from step 8. For example: `"URL": "postgres://postgres:shuttle@localhost/shuttletracker?sslmode=disable"`.  
@@ -105,7 +105,7 @@ kochms
 13. Install [Node.js and npm](https://nodejs.org/en/). Download the recommeneded version and install. Restart your command prompt.  
 ![Step 13](https://user-images.githubusercontent.com/6248819/48438877-f47d7f80-e752-11e8-9584-e5dd79ec92d2.png)  
 ![Step 13b](https://user-images.githubusercontent.com/6248819/48438809-d1eb6680-e752-11e8-99b1-257742e7c559.png)  
-14. Navigate to the frontend directory within the shuttle tracker directory (`$GOPATH/src/github.com/wtg/shuttletracker/frontend`).  
+14. Navigate to the frontend directory within the shuttle tracker directory (`$GOPATH/src/github.com/thepoly/shuttletracker/frontend`).  
 15. Run `npm install`  
 ![Step 14+15](https://user-images.githubusercontent.com/6248819/48438927-1bd44c80-e753-11e8-9eb5-fc4c16795f57.png)  
 16. Build the frontend using `npx vue-cli-service build --mode development`

@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/wtg/shuttletracker/api"
-	"github.com/wtg/shuttletracker/log"
-	"github.com/wtg/shuttletracker/postgres"
-	"github.com/wtg/shuttletracker/updater"
+	"github.com/thepoly/shuttletracker/api"
+	"github.com/thepoly/shuttletracker/log"
+	"github.com/thepoly/shuttletracker/postgres"
+	"github.com/thepoly/shuttletracker/updater"
 )
 
 // Config is the global configuration struct.

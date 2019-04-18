@@ -10,7 +10,7 @@ import (
 	"strconv"
 
 	"github.com/lib/pq"
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // pointsRegex matches points in a Postgres path, e.g. [(42.72283,-73.67964),(42.72297,-73.67948)]

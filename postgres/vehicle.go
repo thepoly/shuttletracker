@@ -6,7 +6,7 @@ import (
 	// Postgres driver for database/sql
 	_ "github.com/lib/pq"
 
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // VehicleService implements shuttletracker.VehicleService.

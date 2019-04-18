@@ -3,7 +3,7 @@ package postgres
 import (
 	"database/sql"
 
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // StopService is an implementation of shuttletracker.StopService.

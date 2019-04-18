@@ -1,17 +1,18 @@
 package api
 
 import (
-	"github.com/go-chi/chi"
-
-	"github.com/wtg/shuttletracker/auth"
-	"github.com/wtg/shuttletracker/mock"
-
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"strings"
 	"testing"
+
+	"github.com/go-chi/chi"
+
+	"github.com/thepoly/shuttletracker/auth"
+	"github.com/thepoly/shuttletracker/mock"
+
 )
 
 func TestCasUnauthenticated(t *testing.T) {

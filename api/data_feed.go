@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 // DataFeedHandler returns the latest successful response that the Updater received

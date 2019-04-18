@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 var (

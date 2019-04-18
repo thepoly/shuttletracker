@@ -7,8 +7,8 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 const locationsInsertChannel = "locations.insert"

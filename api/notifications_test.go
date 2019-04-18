@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/wtg/shuttletracker/database"
+	"github.com/thepoly/shuttletracker/database"
 )
 
 func TestNew(t *testing.T) {

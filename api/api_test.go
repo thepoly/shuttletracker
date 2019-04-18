@@ -9,8 +9,8 @@ import (
 
 	tmock "github.com/stretchr/testify/mock"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/mock"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/mock"
 )
 
 func TestStatic(t *testing.T) {

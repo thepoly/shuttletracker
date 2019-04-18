@@ -11,7 +11,7 @@ import (
 	"errors"
 	"bufio"
 
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 type etagResponseWriter struct {

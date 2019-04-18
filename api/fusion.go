@@ -11,8 +11,8 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/gorilla/websocket"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 var upgrader = websocket.Upgrader{

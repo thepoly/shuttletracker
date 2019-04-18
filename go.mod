@@ -1,4 +1,4 @@
-module github.com/wtg/shuttletracker
+module github.com/thepoly/shuttletracker
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect

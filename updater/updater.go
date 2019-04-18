@@ -12,8 +12,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/log"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/log"
 )
 
 // Updater handles periodically grabbing the latest vehicle location data from iTrak.

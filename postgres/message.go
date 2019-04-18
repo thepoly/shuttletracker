@@ -3,7 +3,7 @@ package postgres
 import (
 	"database/sql"
 
-	"github.com/wtg/shuttletracker"
+	"github.com/thepoly/shuttletracker"
 )
 
 // MessageService implements a mock of shuttletracker.MessageService.

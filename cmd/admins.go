@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/wtg/shuttletracker"
-	"github.com/wtg/shuttletracker/config"
-	"github.com/wtg/shuttletracker/postgres"
+	"github.com/thepoly/shuttletracker"
+	"github.com/thepoly/shuttletracker/config"
+	"github.com/thepoly/shuttletracker/postgres"
 )
 
 // Add is a flag to put the admins command into "add" mode.
